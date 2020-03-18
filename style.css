@@ -1,7 +1,8 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background-image: linear-gradient(to bottom right, #f9fcfb, #b0eacd);
 }
 
 textarea {
@@ -26,6 +27,19 @@ textarea {
     border-bottom: 10px solid black;
 }
 
+footer{
+    margin-top: 20px;
+    height: 100%;
+    border: 1px solid lightgrey;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+footer, a {
+    color: grey;
+    font-size: .75em;
+} */
 .description {
     white-space: pre-wrap;
 }
@@ -39,7 +53,6 @@ textarea {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
-    ;
 }
 
 .hour {
@@ -49,17 +62,17 @@ textarea {
 }
 
 .past {
-    background-color: #d3d3d3;
+    background-color: #f9fcfb;
     color: white;
 }
 
 .present {
-    background-color: #ff6961;
+    background-color: #fd5e53;
     color: white;
 }
 
 .future {
-    background-color: #77dd77;
+    background-color: #21bf73;
     color: white;
 }
 

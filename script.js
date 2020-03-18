@@ -15,7 +15,7 @@ $(document).ready(function () {
     })
 
     function hourUpdater() {
-        var currentHour = 13; //moment().hours();
+        var currentHour = moment().hours();
 
         $(".time-block").each(function () {
             var blockHour = parseInt($(this).attr("id").split("-")[1]);
